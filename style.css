@@ -1,0 +1,96 @@
+
+
+/*   Lien vers le tutoriel : https://www.youtube.com/watch?v=ZsuTciVL8PU&t=564s  */
+
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+header {
+  background-color: #478d47;
+  align-items: center;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  background-color: black;
+  font-family: monospace;
+}
+
+footer {
+  background-color: #478d47;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img2 {
+  height: 100px;
+}
+
+.color1 {
+  color: #04f359;
+}
+
+.color2 {
+  color: #f1f505;
+}
+
+.color3 {
+ color: #d10000;
+}
+
+.img {
+   width: 500px;
+  height: 300px;
+  object-fit: cover;
+}
+
+
+.SLIDER {
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+    margin: 150px auto;
+  }
+
+  .SLIDES{
+    width: calc(500px * 3);
+    animation: glisse 10s infinite;
+  }
+
+  .SLIDE {
+    float: left;
+  }
+
+  @keyframes glisse {
+    0% {
+      transform: translateX(0);
+    }
+    10% {
+      transform: translateX(0);
+    }
+    33% {
+      transform: translateX(-500px);
+    }
+    43% {
+      transform: translateX(-500px);
+    }
+    66% {
+      transform: translateX(-1000px);
+    }
+    76% {
+      transform: translateX(-1000px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
